@@ -39,17 +39,6 @@ export interface ExpandableCalendarProps extends CalendarListProps {
 declare const ExpandableCalendar: {
     (props: ExpandableCalendarProps): React.JSX.Element;
     displayName: string;
-    defaultProps: {
-        horizontal: boolean;
-        initialPosition: Positions;
-        firstDay: number;
-        leftArrowImageSource: any;
-        rightArrowImageSource: any;
-        allowShadow: boolean;
-        openThreshold: number;
-        closeThreshold: number;
-        closeOnDayPress: boolean;
-    };
     positions: typeof Positions;
 };
 export default ExpandableCalendar;
